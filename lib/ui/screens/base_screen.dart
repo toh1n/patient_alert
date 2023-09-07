@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:patient_alert/available_device_screen.dart';
-import 'package:patient_alert/notifications_screen.dart';
-import 'package:patient_alert/settings_screen.dart';
+import 'package:patient_alert/ui/screens/available_device_screen.dart';
+import 'package:patient_alert/ui/screens/notifications_screen.dart';
+import 'package:patient_alert/ui/screens/about_screen.dart';
 
 class BaseScreen extends StatefulWidget {
   const BaseScreen({super.key});
@@ -17,7 +17,7 @@ class _BaseScreenState extends State<BaseScreen> {
   final List<Widget> _widgetList = [
     const AvailableDeviceScreen(),
     const NotificationsScreen(),
-    const SettingsScreen(),
+    const AboutScreen(),
   ];
 
 

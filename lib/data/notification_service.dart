@@ -8,7 +8,7 @@ class NotificationService {
     try {
       final String? notifications = await platform.invokeMethod('getNotifications');
       return notifications;
-    } on PlatformException catch (e) {
+    } on PlatformException {
       Fluttertoast.showToast(msg: "Failed to get notifications.");
       return null;
     }

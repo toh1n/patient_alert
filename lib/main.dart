@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:patient_alert/base_screen.dart';
+import 'package:patient_alert/ui/screens/base_screen.dart';
 
 
 Future<void> main() async {
